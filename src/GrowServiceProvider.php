@@ -12,6 +12,7 @@ class GrowServideProvider extends ServiceProvider
         // Register Blade directive
         Blade::directive('shout', function ($expression) {
             return "<?php echo strtoupper($expression); ?>";
+            
         });
 
         // Load helper file
