@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "felip/grow",
+    "name": "felipesantos2/grow",
     "description": "my first composer package for laravel",
     "type": "library",
     "require": {
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "felipesantos2\\Grow\\": "src/"
+            "felipesantos2\\grow\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "felipesantos2\\Grow\\GrowServiceProvider"
+                "felipesantos2\\grow\\GrowServiceProvider"
             ]
         }
     },
