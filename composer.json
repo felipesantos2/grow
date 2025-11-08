@@ -22,8 +22,7 @@
     },
     "authors": [
         {
-            "name": "felipesantos2",
-            "email": "santospinheiro627@gmail.com"
+            "name": "felipesantos2"
         }
     ],
     "minimum-stability": "dev"
